@@ -9,5 +9,5 @@ if result.status_code==200:
     print(f"Success operation.Get new joke!")
 else:
     print(f"Operation failed!")
-result.encoding='utf-8'
+result.encoding='utf-8'#for encoding the result
 print(result.text)
