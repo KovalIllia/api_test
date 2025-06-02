@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les_40">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="fixed les_40 + homework p1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les40_requestsMethodGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/les40_requestsMethodGet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les41_requestsMethodGet.py" beforeDir="false" afterPath="$PROJECT_DIR$/les40_requestsMethodGet_homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les40_requestsMethodGet_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/les40_requestsMethodGet_homework.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KovalIllia"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KovalIllia&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KovalIllia/api_test.git&quot;,
@@ -45,18 +43,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.les40_requestsMethodGet.executor": "Run",
-    "Python.les40_requestsMethodGet_homework.executor": "Run",
-    "Python.tests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/koval_i/PycharmProjects/api_test"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.les40_requestsMethodGet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les40_requestsMethodGet_homework.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/koval_i/PycharmProjects/api_test&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.les40_requestsMethodGet_homework">
     <configuration name="les40_requestsMethodGet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="api_test" />
@@ -140,11 +138,20 @@
       <option name="project" value="LOCAL" />
       <updated>1748636051929</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed les_40 + homework p1">
+      <option name="closed" value="true" />
+      <created>1748638297707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748638297707</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="les_40" />
-    <option name="LAST_COMMIT_MESSAGE" value="les_40" />
+    <MESSAGE value="fixed les_40 + homework p1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed les_40 + homework p1" />
   </component>
 </project>
