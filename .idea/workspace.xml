@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="fixed les_40 + homework p1">
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="fixed les_40 + homework p2+p3">
+      <change afterPath="$PROJECT_DIR$/les42_requestsMethodGet_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/les43_requesthomework_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les40_requestsMethodGet_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/les40_requestsMethodGet_homework.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +46,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.les40_requestsMethodGet.executor&quot;: &quot;Run&quot;,
-    &quot;Python.les40_requestsMethodGet_homework.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/koval_i/PycharmProjects/api_test&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests in les42_requestsMethodGet.py.executor": "Run",
+    "Python tests.Python tests in les42_requestsMethodGet_test.py.executor": "Run",
+    "Python.les40_requestsMethodGet.executor": "Run",
+    "Python.les40_requestsMethodGet_homework.executor": "Run",
+    "Python.les42_requestsMethodGet_test.executor": "Run",
+    "Python.les43_requesthomework_test.executor": "Run",
+    "Python.les43_requestsMethodGet_HomeworkTest.executor": "Run",
+    "Python.tests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/koval_i/PycharmProjects/api_test",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Python.les40_requestsMethodGet_homework">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.les43_requesthomework_test">
     <configuration name="les40_requestsMethodGet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="api_test" />
       <option name="ENV_FILES" value="" />
@@ -100,8 +114,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="les43_requesthomework_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/les43_requesthomework_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in les42_requestsMethodGet_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="api_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (api_test)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/les42_requestsMethodGet_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.les43_requesthomework_test" />
+      <item itemvalue="Python.les40_requestsMethodGet" />
+      <item itemvalue="Python.les40_requestsMethodGet_homework" />
+      <item itemvalue="Python tests.Python tests in les42_requestsMethodGet_test.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.les43_requesthomework_test" />
+        <item itemvalue="Python tests.Python tests in les42_requestsMethodGet_test.py" />
         <item itemvalue="Python.les40_requestsMethodGet_homework" />
         <item itemvalue="Python.les40_requestsMethodGet" />
       </list>
@@ -146,12 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1748638297707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixed les_40 + homework p2+p3">
+      <option name="closed" value="true" />
+      <created>1748893326654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748893326654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="les_40" />
     <MESSAGE value="fixed les_40 + homework p1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed les_40 + homework p1" />
+    <MESSAGE value="fixed les_40 + homework p2+p3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed les_40 + homework p2+p3" />
   </component>
 </project>
