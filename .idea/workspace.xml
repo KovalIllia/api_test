@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="fixed les_40 + homework p2+p3">
-      <change afterPath="$PROJECT_DIR$/les42_requestsMethodGet_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/les43_requesthomework_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/api_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,13 +208,31 @@
       <option name="project" value="LOCAL" />
       <updated>1748893326654</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed les_42,les_43 + homework">
+      <option name="closed" value="true" />
+      <created>1748982043281</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748982043281</updated>
+    </task>
+    <task id="LOCAL-00006" summary="les44">
+      <option name="closed" value="true" />
+      <created>1748982156848</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748982156848</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="les_40" />
     <MESSAGE value="fixed les_40 + homework p1" />
     <MESSAGE value="fixed les_40 + homework p2+p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed les_40 + homework p2+p3" />
+    <MESSAGE value="fixed les_42,les_43 + homework" />
+    <MESSAGE value="les44" />
+    <option name="LAST_COMMIT_MESSAGE" value="les44" />
   </component>
 </project>
