@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44" />
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests in les42_requestsMethodGet.py.executor": "Run",
-    "Python tests.Python tests in les42_requestsMethodGet_test.py.executor": "Run",
-    "Python.les40_requestsMethodGet.executor": "Run",
-    "Python.les40_requestsMethodGet_homework.executor": "Run",
-    "Python.les42_requestsMethodGet_test.executor": "Run",
-    "Python.les43_requesthomework_test.executor": "Run",
-    "Python.les43_requestsMethodGet_HomeworkTest.executor": "Run",
-    "Python.tests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/koval_i/PycharmProjects/api_test",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in les42_requestsMethodGet.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in les42_requestsMethodGet_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les40_requestsMethodGet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les40_requestsMethodGet_homework.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les42_requestsMethodGet_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les43_requesthomework_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les43_requestsMethodGet_HomeworkTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/koval_i/PycharmProjects/api_test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -224,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748982156848</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="les44">
+      <option name="closed" value="true" />
+      <created>1749020748745</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1749020748745</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
