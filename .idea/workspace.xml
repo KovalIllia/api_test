@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les44_requestsMethodPut.py" beforeDir="false" afterPath="$PROJECT_DIR$/les44_requestsMethodPut.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +59,7 @@
     &quot;Python.tests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/koval_i/PycharmProjects/api_test&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
@@ -65,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.les43_requesthomework_test">
+  <component name="RunManager" selected="Python.les44_requestsMethodPut">
     <configuration name="les40_requestsMethodGet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="api_test" />
       <option name="ENV_FILES" value="" />
@@ -132,6 +136,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="les44_requestsMethodPut" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="api_test" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/les44_requestsMethodPut.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in les42_requestsMethodGet_test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="api_test" />
       <option name="ENV_FILES" value="" />
@@ -149,6 +175,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.les44_requestsMethodPut" />
       <item itemvalue="Python.les43_requesthomework_test" />
       <item itemvalue="Python.les40_requestsMethodGet" />
       <item itemvalue="Python.les40_requestsMethodGet_homework" />
@@ -156,6 +183,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.les44_requestsMethodPut" />
         <item itemvalue="Python.les43_requesthomework_test" />
         <item itemvalue="Python tests.Python tests in les42_requestsMethodGet_test.py" />
         <item itemvalue="Python.les40_requestsMethodGet_homework" />
@@ -234,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749020748745</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="les44">
+      <option name="closed" value="true" />
+      <created>1749022713875</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749022713875</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
