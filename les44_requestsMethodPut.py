@@ -31,6 +31,7 @@ class TestNewLocation():
         result_post = requests.post(post_url, json=json_for_create_new_location)
         assert result_post.status_code == 200
         print(result_post.text)
+        print("*****************************")
         check_post = result_post.json()
         # check_info_post = check_post.get("status")
         check_info_post = check_post["status"]
@@ -38,18 +39,47 @@ class TestNewLocation():
         print(f"status:{check_info_post}")
         place_id = check_post["place_id"]
         print(f"place_id:{place_id}")
+        print("*****************************")
+
 
 
 
         """Get info about created location"""
-
-        get_resorce="/maps/api/place/get/json"
-        get_url=f"{base_url}{get_resorce}{key}&place_id={place_id}"
-        result_get=requests.get(get_url)
-        assert result_get.status_code==200
+        get_resource = "/maps/api/place/get/json"
+        get_url = f"{base_url}{get_resource}{key}&place_id={place_id}"
+        result_get = requests.get(get_url)
+        assert result_get.status_code == 200
         print(result_get.text)
+        print("*****************************")
 
 
+
+        """Update info about created location"""
+        update_resource = "/maps/api/place/update/json"
+        update_url = f"{base_url}{update_resource}{key}"
+        json_for_update_created_location = {
+            "place_id": place_id,
+            "address": "70 Summer walk, USA",
+            "key": "qaclick123"
+        }
+        result_update = requests.put(update_url, json=json_for_update_created_location)
+        print(result_update.text)
+        assert result_update.status_code == 200
+        check_put=result_update.json()
+        check_put_info=check_put["msg"]
+        assert check_put_info=="Address successfully updated"
+        print("*****************************")
+
+
+
+        """Get info about failed location"""
+        failed_place_id=555
+        get_resource = "/maps/api/place/get/json"
+        get_url = f"{base_url}{get_resource}{key}&place_id={failed_place_id}"
+        result_get = requests.get(get_url)
+        assert result_get.status_code == 404
+        print(result_get.text)
+        print("*****************************")
 
 
 new_place = TestNewLocation()

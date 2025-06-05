@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44 p1">
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44 all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/les44_requestsMethodPut.py" beforeDir="false" afterPath="$PROJECT_DIR$/les44_requestsMethodPut.py" afterDir="false" />
     </list>
@@ -279,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749069982295</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="les44 all">
+      <option name="closed" value="true" />
+      <created>1749152007413</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1749152007413</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +297,7 @@
     <MESSAGE value="fixed les_42,les_43 + homework" />
     <MESSAGE value="les44" />
     <MESSAGE value="les44 p1" />
-    <option name="LAST_COMMIT_MESSAGE" value="les44 p1" />
+    <MESSAGE value="les44 all" />
+    <option name="LAST_COMMIT_MESSAGE" value="les44 all" />
   </component>
 </project>
