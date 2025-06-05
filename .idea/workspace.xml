@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44">
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les44 p1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/les44_requestsMethodPut.py" beforeDir="false" afterPath="$PROJECT_DIR$/les44_requestsMethodPut.py" afterDir="false" />
     </list>
@@ -56,6 +56,7 @@
     &quot;Python.les42_requestsMethodGet_test.executor&quot;: &quot;Run&quot;,
     &quot;Python.les43_requesthomework_test.executor&quot;: &quot;Run&quot;,
     &quot;Python.les43_requestsMethodGet_HomeworkTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les44_requestsMethodPut.executor&quot;: &quot;Run&quot;,
     &quot;Python.tests.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -270,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749022713875</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="les44 p1">
+      <option name="closed" value="true" />
+      <created>1749069982295</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749069982295</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,6 +288,7 @@
     <MESSAGE value="fixed les_40 + homework p2+p3" />
     <MESSAGE value="fixed les_42,les_43 + homework" />
     <MESSAGE value="les44" />
-    <option name="LAST_COMMIT_MESSAGE" value="les44" />
+    <MESSAGE value="les44 p1" />
+    <option name="LAST_COMMIT_MESSAGE" value="les44 p1" />
   </component>
 </project>
