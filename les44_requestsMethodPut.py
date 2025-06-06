@@ -31,7 +31,6 @@ class TestNewLocation():
         result_post = requests.post(post_url, json=json_for_create_new_location)
         assert result_post.status_code == 200
         print(result_post.text)
-        print("*****************************")
         check_post = result_post.json()
         # check_info_post = check_post.get("status")
         check_info_post = check_post["status"]
@@ -39,7 +38,10 @@ class TestNewLocation():
         print(f"status:{check_info_post}")
         place_id = check_post["place_id"]
         print(f"place_id:{place_id}")
-        print("*****************************")
+        print()
+        print()
+        print()
+        print()
 
 
 
@@ -50,7 +52,10 @@ class TestNewLocation():
         result_get = requests.get(get_url)
         assert result_get.status_code == 200
         print(result_get.text)
-        print("*****************************")
+        print()
+        print()
+        print()
+        print()
 
 
 
@@ -68,18 +73,55 @@ class TestNewLocation():
         check_put=result_update.json()
         check_put_info=check_put["msg"]
         assert check_put_info=="Address successfully updated"
-        print("*****************************")
+        print()
+        print()
+        print()
+        print()
 
-
-
-        """Get info about failed location"""
-        failed_place_id=555
+        """Get info about updated location"""
         get_resource = "/maps/api/place/get/json"
-        get_url = f"{base_url}{get_resource}{key}&place_id={failed_place_id}"
+        get_url = f"{base_url}{get_resource}{key}&place_id={place_id}"
         result_get = requests.get(get_url)
-        assert result_get.status_code == 404
+        assert result_get.status_code == 200
+        check_adress=result_get.json()
+        check_address_info=check_adress["address"]
+        assert check_address_info=="70 Summer walk, USA"
         print(result_get.text)
-        print("*****************************")
+        # print(check_address_info)
+        print()
+        print()
+        print()
+        print()
+
+        # """Update info about NOTcreated location -- negative case"""
+        # failed_place_id = 555
+        # update_resource = "/maps/api/place/update/json"
+        # update_url = f"{base_url}{update_resource}{key}"
+        # json_for_update_created_location = {
+        #     "place_id": failed_place_id,
+        #     "address": "70 Summer walk, USA",
+        #     "key": "qaclick123"
+        # }
+        # result_update = requests.put(update_url, json=json_for_update_created_location)
+        # print(result_update.text)
+        # assert result_update.status_code == 404
+        # check_put = result_update.json()
+        # check_put_info = check_put["msg"]
+        # print(check_put_info)
+        # assert check_put_info == "Update address operation failed, looks like the data doesn't exists"
+        # print()
+        # print()
+        # print()
+
+
+        # """Get info about NOTcreated location  -- negative case"""
+        failed_place_id=555
+        # get_resource = "/maps/api/place/get/json"
+        # get_url = f"{base_url}{get_resource}{key}&place_id={failed_place_id}"
+        # result_get = requests.get(get_url)
+        # assert result_get.status_code == 404
+        # print(result_get.text)
+        # print("*****************************")
 
 
 new_place = TestNewLocation()
