@@ -103,6 +103,8 @@ class TestNewLocation():
         }
         result_delete=requests.delete(delete_url,json=json_for_delete_location)
         assert result_delete.status_code==200
+        if result_delete.status_code==200:
+            print("successful location deletion")
         print(result_delete.text)
         print()
         print()
@@ -115,6 +117,9 @@ class TestNewLocation():
         get_url = f"{base_url}{get_resource}{key}&place_id={place_id}"
         result_get = requests.get(get_url)
         assert result_get.status_code == 404
+        check_msg=result_get.json()
+        check_msg_info=check_msg["msg"]
+        assert check_msg_info=="Get operation failed, looks like place_id  doesn't exists"
         # check_adress = result_get.json()
         # check_address_info = check_adress["address"]
         # assert check_address_info == "70 Summer walk, USA"

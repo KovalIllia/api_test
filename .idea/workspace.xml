@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les45 all">
-      <change afterPath="$PROJECT_DIR$/les46_requestsMethodDelete.py" afterDir="false" />
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les46 p1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/les44_requestsMethodPut.py" beforeDir="false" afterPath="$PROJECT_DIR$/les44_requestsMethodPostAndPut.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/les46_requestsMethodDelete.py" beforeDir="false" afterPath="$PROJECT_DIR$/les46_requestsMethodDelete.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +46,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests in les42_requestsMethodGet.py.executor": "Run",
-    "Python tests.Python tests in les42_requestsMethodGet_test.py.executor": "Run",
-    "Python.les40_requestsMethodGet.executor": "Run",
-    "Python.les40_requestsMethodGet_homework.executor": "Run",
-    "Python.les42_requestsMethodGet_test.executor": "Run",
-    "Python.les43_requesthomework_test.executor": "Run",
-    "Python.les43_requestsMethodGet_HomeworkTest.executor": "Run",
-    "Python.les44_requestsMethodPostAndPut.executor": "Debug",
-    "Python.les44_requestsMethodPut.executor": "Run",
-    "Python.les46_requestsMethodDelete.executor": "Run",
-    "Python.tests.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/koval_i/PycharmProjects/api_test",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in les42_requestsMethodGet.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in les42_requestsMethodGet_test.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les40_requestsMethodGet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les40_requestsMethodGet_homework.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les42_requestsMethodGet_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les43_requesthomework_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les43_requestsMethodGet_HomeworkTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les44_requestsMethodPostAndPut.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.les44_requestsMethodPut.executor&quot;: &quot;Run&quot;,
+    &quot;Python.les46_requestsMethodDelete.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/koval_i/PycharmProjects/api_test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -306,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749240719802</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="les46 p1">
+      <option name="closed" value="true" />
+      <created>1749241915038</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1749241915038</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -319,97 +326,7 @@
     <MESSAGE value="les44 all" />
     <MESSAGE value="les45 p1" />
     <MESSAGE value="les45 all" />
-    <option name="LAST_COMMIT_MESSAGE" value="les45 all" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>81</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>83</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>85</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>86</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>99</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>100</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>101</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>102</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>103</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>104</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>106</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/les46_requestsMethodDelete.py</url>
-          <line>105</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="les46 p1" />
+    <option name="LAST_COMMIT_MESSAGE" value="les46 p1" />
   </component>
 </project>
