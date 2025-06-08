@@ -1,6 +1,5 @@
-def main():
-    pass
-
-
-if _name_='_main':
-    main()
+# def main():
+#     pass
+#
+#
+# if __name__ == '__main__':
