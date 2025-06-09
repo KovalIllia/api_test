@@ -1,5 +1,8 @@
+import requests
+
+
 from utils.http_methods import Http_methods
-# from tests.test_google_maps_api import Test_creat_new_place
+from tests.test_google_maps_api import *
 
 base_url = "https://rahulshettyacademy.com"  # base url
 key = "?key=qaclick123"
@@ -47,3 +50,20 @@ class Google_maps_api():
         result_get = Http_methods.get(get_url)
         print(result_get.text)
         return result_get
+
+
+    """Update information about created location"""
+
+    @staticmethod
+    def update_new_place(place_id):
+        update_resource = "/maps/api/place/update/json"  # resource method PUT
+        put_url = f"{base_url}{update_resource}{key}"
+        json_for_update_created_location = {
+            "place_id": place_id,
+            "address": "70 Summer walk, USA",
+            "key": "qaclick123"
+        }
+        result_put = Http_methods.put(put_url,json_for_update_created_location)
+        print(result_put.text)
+        assert result_put.status_code == 200
+        return result_put
