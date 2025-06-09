@@ -67,3 +67,16 @@ class Google_maps_api():
         print(result_put.text)
         assert result_put.status_code == 200
         return result_put
+
+    """Delete information about created location"""
+
+    @staticmethod
+    def delete_new_place(place_id):
+        delete_resource="/maps/api/place/delete/json"
+        delete_url=f"{base_url}{delete_resource}{key}"
+        json_for_delete_location = {
+            "place_id": place_id
+        }
+        result_delete=Http_methods.delete(delete_url,json_for_delete_location)
+        print(result_delete.text)
+        return result_delete
