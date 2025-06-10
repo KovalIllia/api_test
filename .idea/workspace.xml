@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les51 all">
+    <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les52 all">
+      <change afterPath="$PROJECT_DIR$/utils/checking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_google_maps_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_google_maps_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749499387846</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="les52 all">
+      <option name="closed" value="true" />
+      <created>1749499951023</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1749499951023</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -371,6 +379,7 @@
     <MESSAGE value="les48 all" />
     <MESSAGE value="les49 all + 50(additional info)" />
     <MESSAGE value="les51 all" />
-    <option name="LAST_COMMIT_MESSAGE" value="les51 all" />
+    <MESSAGE value="les52 all" />
+    <option name="LAST_COMMIT_MESSAGE" value="les52 all" />
   </component>
 </project>
