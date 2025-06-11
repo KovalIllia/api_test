@@ -1,4 +1,6 @@
 """METHODS for checking responses of our requests"""
+import json
+
 import requests
 from requests import Response
 
@@ -13,3 +15,13 @@ class Checking():
             print(f"success! status code: {response.status_code}")
         else:
             print(f"failed! status code: {response.status_code}")
+
+
+
+
+    """method for checking for required fields in a query response"""
+    @staticmethod
+    def check_json_token(response: requests.Response, expected_value):
+        token=json.loads(response.text)#форматує string в формат json
+        assert list(token)==expected_value
+        print("all required field are presented")
