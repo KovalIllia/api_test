@@ -21,6 +21,7 @@ class Test_creat_new_place():
         Checking.check_json_token(result_post,['status', 'place_id', 'scope', 'reference', 'id'])
         # token=json.loads(result_post.text)
         # print(list(token))
+        Checking.check_json_value(result_post,'status','OK')
         print()
 
 
@@ -31,6 +32,7 @@ class Test_creat_new_place():
         Checking.check_json_token(result_get, ['location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'])
         # token=json.loads(result_get.text)
         # print(list(token))
+        Checking.check_json_value(result_get,"accuracy","50")
         print()
 
         print("Method PUT")
@@ -39,6 +41,7 @@ class Test_creat_new_place():
         Checking.check_json_token(result_put,['msg'])
         # token=json.loads(result_put.text)
         # print(list(token))
+        Checking.check_json_value(result_put,"msg","Address successfully updated")
         print()
 
 
@@ -48,6 +51,8 @@ class Test_creat_new_place():
         Checking.check_json_token(result_get, ['location', 'accuracy', 'name', 'phone_number', 'address', 'types', 'website', 'language'])
         # token=json.loads(result_get.text)
         # print(list(token))
+        Checking.check_json_value(result_get,"name","Frontline house")
+        Checking.check_json_search_word_in_value(result_get,"address","USA")
         print()
 
 
@@ -57,6 +62,7 @@ class Test_creat_new_place():
         Checking.check_json_token(result_delete, ['status'])
         # token=json.loads(result_delete.text)
         # print(list(token))
+        Checking.check_json_value(result_delete,"status","OK")
         print()
 
 
@@ -66,4 +72,6 @@ class Test_creat_new_place():
         Checking.check_json_token(result_get , ['msg'])
         # token=json.loads(result_get.text)
         # print(list(token))
+        Checking.check_json_value(result_get,"msg","Get operation failed, looks like place_id  doesn't exists")
+        Checking.check_json_search_word_in_value(result_get,"msg","failed")
         print()
