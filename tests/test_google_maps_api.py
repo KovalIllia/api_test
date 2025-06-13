@@ -5,13 +5,15 @@ from utils.http_methods import *
 
 from utils.api import Google_maps_api
 from utils.checking import Checking
+import allure
 
 
 """Create, update and delete new place"""
 
-
+@allure.epic('Test create new place')
 class Test_creat_new_place():
 
+    @allure.description('Test create,update,delete new place')
     def test_create_new_place(self):
         print("Method POST")
         result_post = Google_maps_api.create_new_place()

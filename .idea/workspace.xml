@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ab6c6eb-150a-47ca-b043-0224eb6a971a" name="Changes" comment="les55 all">
-      <change afterPath="$PROJECT_DIR$/utils/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_google_maps_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_google_maps_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/http_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/http_methods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +69,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/koval_i/PycharmProjects/api_test&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -177,9 +179,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.les46_requestsMethodDelete" />
-      <item itemvalue="Python.les44_requestsMethodPostAndPut" />
       <item itemvalue="Python.les43_requesthomework_test" />
+      <item itemvalue="Python.les44_requestsMethodPostAndPut" />
+      <item itemvalue="Python.les46_requestsMethodDelete" />
       <item itemvalue="Python tests.Python tests for test_google_maps_api.Test_creat_new_place.test_create_new_place" />
       <item itemvalue="Python tests.Python tests in test_google_maps_api.py" />
     </list>
@@ -386,6 +388,17 @@
     </task>
     <option name="localTasksCounter" value="23" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="les_40" />
